@@ -1,7 +1,9 @@
 import { defineConfig } from '@umijs/max';
+const isDev = process.env.NODE_ENV === 'development'
 
 export default defineConfig({
   publicPath: '/github-actions-demo/',
+  history: {type:'hash'},
   antd: {},
   access: {},
   model: {},
