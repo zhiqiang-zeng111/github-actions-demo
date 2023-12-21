@@ -1,6 +1,7 @@
 {
   "private": true,
   "author": "zhiqiang.zeng <zhiqiang.zeng@pixocial.com>",
+  "homepage": "https://zhiqiang-zeng111.github.io/github-actions-demo",
   "scripts": {
     "dev": "max dev",
     "build": "max build",
