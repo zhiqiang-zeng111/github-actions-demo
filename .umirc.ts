@@ -1,6 +1,7 @@
 import { defineConfig } from '@umijs/max';
 
 export default defineConfig({
+  base: '/github-actions-demo',
   antd: {},
   access: {},
   model: {},
